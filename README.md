@@ -1,5 +1,5 @@
 <!-- header -->
-# Portafio JSON !! (javascript)
+# Portafolio JSON !! (javascript)
 
 Small Exercise where from a JSON we generate a presentation card, apply filters to the title and filter by category.
 

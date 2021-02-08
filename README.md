@@ -11,4 +11,4 @@ Pequeño Ejercicio donde a partir de un JSON generamos una tarjeta de presentaci
 
 ---
 
-# [Miralo aqui](https://gac982.github.io/super-jackpot-game-app/ "demo")
+# [Miralo aqui](https://gac982.github.io/portafolio-json/ "demo")

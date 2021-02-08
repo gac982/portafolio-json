@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tipografia -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Protafolio JSON</title>
+</head>
+<body>
+    <h1>Portafolio JSON</h1>
+    <div class="container">
+        <input id="buscador" type="search" placeholder="Filtrar">
+        <div id="filtros" class="botones"></div>
+    </div>
+    <div id="trabajos" class="trabajos"></div>
+
+
+    <template id="plantillaBtnFiltro">
+        <button class="btn"></button>
+    </template>
+    <template id="plantillaTrabajos">
+        <div class="cartaTrabajo">
+            <h2 class="trabajo__titulo"></h2>
+            <img src="" alt="" class="trabajo__imagen">
+            <p class="trabajo__categoria"></p>
+            <p class="trabajo__descripcion"></p>
+        </div>
+    </template>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
